@@ -10,7 +10,7 @@ steps:
     image: golang
     volumes:
       - name: reports
-       path: /var/reports
+        path: /var/reports
     commands:
       - mkdir -p /var/reports
       - go get

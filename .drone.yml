@@ -8,9 +8,9 @@ workspace:
 steps:
   - name: report
     image: golang
-    volumes:
-      - name: reports
-        path: /var/reports
+#    volumes:
+#      - name: reports
+#        path: /var/reports
     commands:
       - mkdir -p /var/reports
       - go get
